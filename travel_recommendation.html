@@ -5,28 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TravelBloom - Explore the World</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            background-image: url('https://media.istockphoto.com/id/610041376/photo/beautiful-sunrise-over-the-sea.jpg?s=612x612&w=0&k=20&c=R3Tcc6HKc1ixPrBc7qXvXFCicm8jLMMlT99MfmchLNA=');
-            background-size: cover;
-            background-position: center;
-            font-family: Arial, sans-serif;
-            color: white;
-            text-align: center;
-        }
-        .social-media-links img {
-            width: 40px;
-            margin: 10px;
-        }
-    </style>
 </head>
 <body>
-
     <!-- Navigation Bar -->
     <nav>
-        <a href="travel_recommendation.html">Home</a>
-        <a href="about_us.html">About Us</a>
-        <a href="contact_us.html">Contact Us</a>
+        <a href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#contact-us">Contact Us</a>
         <input type="text" id="searchInput" placeholder="Search for destinations or keywords">
         <button id="searchButton">Search</button>
         <button id="clearButton">Clear</button>
@@ -35,7 +20,7 @@
     <!-- Home Page Content -->
     <section id="home">
         <h1>Welcome to TravelBloom</h1>
-        <p>Explore beautiful destinations across the globe.</p>
+        <p>Your gateway to the most beautiful destinations around the world. Discover breathtaking locations, plan your trips, and create unforgettable memories.</p>
         <div class="social-media-links">
             <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/640px-Facebook_logo_%28square%29.png" alt="Facebook"></a>
             <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/1200px-Logo_of_Twitter.svg.png" alt="Twitter"></a>
@@ -43,6 +28,37 @@
         </div>
     </section>
 
+    <!-- About Us Section -->
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>TravelBloom is a dedicated team of travel enthusiasts committed to bringing you the best travel recommendations and experiences.</p>
+        <h3>Meet Our Team</h3>
+        <ul>
+            <li><strong>John Doe</strong> - Founder & CEO</li>
+            <li><strong>Jane Smith</strong> - Travel Consultant</li>
+            <li><strong>Michael Brown</strong> - Content Creator</li>
+        </ul>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or suggestions? Reach out to us!</p>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Recommendations Section -->
     <section id="recommendations">
         <!-- Recommendations will be displayed here -->
     </section>
