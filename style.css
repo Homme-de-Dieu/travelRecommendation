@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#searchInput {
+    padding: 5px;
+}
+
+#searchButton, #clearButton {
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+#home {
+    padding: 20px;
+    text-align: center;
+}
+
+#recommendations {
+    padding: 20px;
+}
+
+.recommendation {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.recommendation img {
+    width: 100%;
+    height: auto;
+}
